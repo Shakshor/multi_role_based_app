@@ -21,8 +21,9 @@ class CustomButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
           children: [
-            Icon(icon),
-            Text(title)
+
+            Text(title),
+            Icon(icon)
           ],
         ),
       ),
